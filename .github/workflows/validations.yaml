@@ -80,7 +80,7 @@ jobs:
         run: make integration-fingerprint
 
       - name: Restore integration test-fixture cache
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v3.3.2
         with:
           path: ${{ github.workspace }}/test/integration/test-fixtures/cache
           key: ${{ runner.os }}-integration-test-cache-${{ hashFiles('test/integration/test-fixtures/cache.fingerprint') }}
@@ -90,7 +90,7 @@ jobs:
 
       - name: Restore integration tool cache
         id: integration-tool-cache
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v3.3.2
         with:
           path: ${{ github.workspace }}/test/integration/tools/cache
           key: ${{ runner.os }}-integration-tools-cache-${{ hashFiles('test/integration/tools/cache.fingerprint') }}
