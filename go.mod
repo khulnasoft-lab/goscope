@@ -81,7 +81,7 @@ require (
 )
 
 require (
-	github.com/khulnasoft-labs/go-logger v0.0.0-20230719191807-d7be2e5a3d3e
+	github.com/khulnasoft-labs/go-logger aeae6c26ed8c
 	github.com/khulnasoft-labs/go-testutils v0.0.0-20230719194444-dbede2dde3ef
 	github.com/sulaiman-coder/goeventbus v0.0.0-20230711062328-f3bebf6c2ec5
 	github.com/sulaiman-coder/goprogress v0.0.0-20230711063359-b1309e6945b1
