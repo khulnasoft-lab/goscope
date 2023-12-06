@@ -8,7 +8,7 @@ require (
 	github.com/becheran/wildmatch-go v1.0.0
 	github.com/bmatcuk/doublestar/v4 v4.0.2
 	github.com/containerd/containerd v1.7.0
-	github.com/docker/cli v20.10.20+incompatible
+	github.com/docker/cli v20.10.27+incompatible
 	github.com/docker/docker v20.10.24+incompatible
 	github.com/gabriel-vasile/mimetype v1.4.0
 	github.com/go-test/deep v1.0.8
