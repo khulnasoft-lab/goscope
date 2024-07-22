@@ -12,7 +12,7 @@ require (
 	github.com/docker/docker v20.10.24+incompatible
 	github.com/gabriel-vasile/mimetype v1.4.0
 	github.com/go-test/deep v1.0.8
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.13.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/logrusorgru/aurora v2.0.3+incompatible
